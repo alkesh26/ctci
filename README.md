@@ -5,3 +5,4 @@ Solution for Crack The Coding Interview problems
 * String has all unique characters
 * Two strings are permutations of each other
 * URLify
+* Palindrome Permutation
