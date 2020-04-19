@@ -6,3 +6,4 @@ Solution for Crack The Coding Interview problems
 * Two strings are permutations of each other
 * URLify
 * Palindrome Permutation
+* Compressed String
