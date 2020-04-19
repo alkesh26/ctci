@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	str := "aaaaaaaabc"
+	str := "aaa"
 
 	if len(str) == 0 {
 		fmt.Println("0 length string")
@@ -20,23 +20,16 @@ func computeCompressedStr(str string) {
 	strLength := len(str)
 
 	compressedStr := ""
-	i := 0
+	count := 0
 
-	for i < strLength-1 {
-		count := 1
-		for i < strLength-1 && str[i+1] == str[i] {
-			count++
-			i++
+	for i := 0; i < strLength; i++ {
+		count++
+
+		if i + 1 >= strLength || str[i+1] != str[i] {
+			compressedStr += string(str[i])
+			compressedStr += strconv.Itoa(count)
+			count = 0
 		}
-
-		compressedStr += string(str[i])
-		compressedStr += strconv.Itoa(count)
-		i++
-	}
-
-	if i == strLength-1 {
-		compressedStr += string(str[i])
-		compressedStr += "1"
 	}
 
 	compressedStrLength := len(compressedStr)
