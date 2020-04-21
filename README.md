@@ -8,3 +8,4 @@ Solution for Crack The Coding Interview problems
 * Palindrome Permutation
 * Compressed String
 * String Rotation
+* Zero matrix
