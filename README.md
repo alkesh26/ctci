@@ -9,3 +9,9 @@ Solution for Crack The Coding Interview problems
 * Compressed String
 * String Rotation
 * Zero matrix
+
+# Linked list
+* Remove duplicates
+* Kth element from last
+* Middle element
+* Partition list
