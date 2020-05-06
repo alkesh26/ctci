@@ -15,3 +15,4 @@ Solution for Crack The Coding Interview problems
 * Kth element from last
 * Middle element
 * Partition list
+* Sum list
