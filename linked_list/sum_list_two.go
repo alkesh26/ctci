@@ -88,6 +88,16 @@ func addLists(num1, num2 *List) (node *Node) {
 }
 
 func calculateSum(num1, num2 *List) {
+	if num1.length == 0 {
+		num1.display()
+		return
+	}
+
+	if num2.length == 0 {
+		num2.display()
+		return
+	}
+
 	carry := 0
 	result := new(Node)
 
