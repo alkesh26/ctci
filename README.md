@@ -17,3 +17,4 @@ Solution for Crack The Coding Interview problems
 * Partition list
 * Sum list
 * Sum list II
+* Intersection
