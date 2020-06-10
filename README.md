@@ -18,3 +18,4 @@ Solution for Crack The Coding Interview problems
 * Sum list
 * Sum list II
 * Intersection
+* Palindrome
